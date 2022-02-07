@@ -157,3 +157,20 @@ button {
   justify-content: space-evenly;
   gap: 1vw;
 }
+
+.main-content {
+  display: grid;
+  grid-template-columns: 75% 1fr;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  padding: 1rem 3rem 3rem 3rem;
+}
+
+.grid-title {
+  grid-column: 1 / 3;
+}
