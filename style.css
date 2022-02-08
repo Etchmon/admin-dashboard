@@ -169,7 +169,7 @@ button {
   grid-template-columns: minmax(70%, 1fr) 1fr;
   grid-column-gap: 1rem;
   padding: 1rem 3rem 3rem 3rem;
-  background-color: #f0f9ff;
+  background-color: #e0f2fe;
 }
 
 .project-grid {
