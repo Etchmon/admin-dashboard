@@ -11,6 +11,10 @@ p {
   margin: 0;
 }
 
+img {
+  cursor: pointer;
+}
+
 body {
   display: grid;
   grid-template-columns: min-content auto;
@@ -89,6 +93,10 @@ body {
   display: flex;
 }
 
+.search-box input {
+  text-indent: 5px;
+}
+
 .greeting-box {
   display: flex;
 }
@@ -128,7 +136,7 @@ body {
 }
 
 .profile-name-large {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
